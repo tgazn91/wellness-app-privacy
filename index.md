@@ -22,6 +22,7 @@ EcoTherapy AI is positioned as a **wellness companion**, not a clinical instrume
 | **Chat messages** (what you type to the wellness companion) | When you use the chat feature |
 | **A small set of personal notes the companion remembers about you** | Generated automatically over time so the companion can give consistent replies across sessions |
 | **Bug or feedback reports** (your description plus the app version + device platform) | Only when you tap "Report a problem" |
+| **Optional screenshot attached to a bug report** | Only the image you explicitly pick or capture when filing a report; never auto-captured |
 | **Crash data** (stack traces only — no personal identifiers) | Automatically, if a fatal error occurs |
 
 ---
@@ -31,7 +32,7 @@ EcoTherapy AI is positioned as a **wellness companion**, not a clinical instrume
 There is no code path in this app that reads, stores, or transmits any of the following:
 
 - Location (GPS, IP-based, cell, or otherwise)
-- Camera, microphone, photo library, media files
+- Camera, microphone, media files **other than** an image you explicitly attach to a bug report (and we never read your full photo library — only the single picture you hand over)
 - Contacts, calendar, SMS, call logs
 - Health and fitness sensors (heart rate, steps, sleep, etc.)
 - Financial information (payment cards, bank accounts, transactions)
@@ -40,6 +41,8 @@ There is no code path in this app that reads, stores, or transmits any of the fo
 - Device advertising identifier or any cross-app tracking ID
 
 Mood entries are **scores you choose to log yourself** — they are not derived from any sensor or background measurement.
+
+Screenshots attached to a bug report are stored privately under your account, accessible only to you and the EcoTherapy AI team. Deleting your account also deletes any attached screenshots.
 
 ---
 
