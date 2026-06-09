@@ -7,6 +7,6 @@ Google Play.
 The application source code and all development assets are kept in
 private repositories.
 
-- **Privacy policy:** [https://tgazn91.github.io/ecotherapy-policy/](https://tgazn91.github.io/ecotherapy-policy/)
+- **Privacy policy:** [https://tgazn91.github.io/wellness-app-privacy/](https://tgazn91.github.io/wellness-app-privacy/)
 - **App:** EcoTherapy AI (Google Play — invite-only)
 - **Contact:** tengkuazn@gmail.com
